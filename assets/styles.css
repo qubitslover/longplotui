@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.search-ft-container{
+	
+    padding: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 15px;
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;   
+    transition: box-shadow 0.2s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bubble{
+	min-width: 25px;
+    min-height: 25px;
+    background: #404040ed;
+    position: absolute;
+    border-radius: 100px;
+    border: 1px solid #5357ff;
+    top: 19px;
+    right: 9px;
+    color: white;
+    border: 2px solid white;
+    /*animation: zoom 2s infinite;*/
+
+}
+
+
+/*@keyframes zoom {
+  50% {border-radius: 100px;}
+}
+*/
+.card{
+	border: none;
+}
+
+.prp-cd{
+	border: 1px solid #8080805e;
+    border-radius: 7px;
+}
+.prp-cd > img{
+	
+    
+   	object-fit: contain;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.bubble > span{
+	font-size: 9px;
+    bottom: 4px;
+    left: 2px;
+    position: absolute;
+
+}
+
+.bottomnavbar{
+	text-align: center;
+    background: #212121d9;
+    width: 90%;
+    margin-left: 19px;    
+    border-radius: 100px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(20px);
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+.postbtn{
+	border: none;
+    background: #c40626;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+
+.search-container{
+	border: 1px solid #d7d7d7;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 15px;
+    display:flex; 
+    background: white;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;   
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.search-container > .search-item{
+	padding: 5px;
+	padding-right: 20px;
+	color: grey;
+	
+}
+
+.search-btn{
+	border: 1px solid #d7d7d7;
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 15px;
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -22px;
+    z-index: -99;
+    background: #c40626;
+}
+
+.search-btn > .search-item{
+	padding: 5px;
+	padding-left: 14px;
+	color: white;
+	
+}
+
+.bg-w{
+	background: white;
+	border-bottom: 1px solid #8b8b8b1f;
+}
+
+.search-item > i{
+	margin-left: 5px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+.cty{
+	display: none;
+}
+
+.search-container {
+	width: 100%;
+    border: 1px solid #d7d7d7;
+    padding: 10px;
+    border-radius: 50px;
+    /* padding-left: 15px; */
+    display: flex;
+    background: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.search-container > .search-item {
+    padding: 5px;
+    /* padding-right: 20px; */
+    color: grey;
+    /* border-right: 1px solid #dedede; */
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.search-btn {
+    border: 1px solid #c40626;
+    padding: 7px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -29px;
+    z-index: -99;
+    background: #c40626;
+}
+
+.search-btn > .search-item {
+    padding: 5px;
+    padding-left: 24px;
+    color: white;
+
+}
+
+
+.search-item > .sepet{
+	font-size: 10px;
+    color: #c40626;
+}
+
+
+}
