@@ -119,6 +119,14 @@ body{
 	
 }
 
+.rmd{
+	border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+}
+
 .search-btn{
 	border: 1px solid #d7d7d7;
     padding: 10px;
